@@ -1,0 +1,398 @@
+{
+  "runs": [
+    {
+      "symbol": "SPY",
+      "target": "same_day_rth",
+      "target_description": "Same-day RTH return from premarket signals",
+      "walk_forward": {
+        "rmse": 0.008148142265684322,
+        "mae": 0.005337756511916514,
+        "oos_r2": -0.018362093836782556,
+        "n_samples": 848,
+        "accuracy": 0.5377358490566038,
+        "balanced_accuracy": 0.513785977115782,
+        "naive_rmse": 0.00807440703642022
+      },
+      "holdout": {
+        "rmse": 0.006639411469958362,
+        "mae": 0.005095396001181155,
+        "oos_r2": -0.001202342450188576,
+        "n_samples": 126,
+        "accuracy": 0.5158730158730159,
+        "balanced_accuracy": 0.4931818181818182,
+        "naive_rmse": 0.006635951124296617
+      },
+      "top_features": [
+        {
+          "feature": "rth_ret_lag_1",
+          "importance": 0.13443599044351104
+        },
+        {
+          "feature": "rth_ret_lag_2",
+          "importance": 0.10218904357148993
+        },
+        {
+          "feature": "realized_vol_lag_1",
+          "importance": 0.10149121474220145
+        },
+        {
+          "feature": "rth_ret_roll_std_5",
+          "importance": 0.09422242349904517
+        },
+        {
+          "feature": "pre_vol_ratio",
+          "importance": 0.09139585272866006
+        },
+        {
+          "feature": "rth_ret_lag_5",
+          "importance": 0.08652045580078356
+        },
+        {
+          "feature": "rth_ret_roll_mean_5",
+          "importance": 0.07339384672897202
+        },
+        {
+          "feature": "realized_vol_roll_mean_5",
+          "importance": 0.06555476752312286
+        },
+        {
+          "feature": "last30_pre_return",
+          "importance": 0.06193306130466994
+        },
+        {
+          "feature": "gap_pct",
+          "importance": 0.05766450870573891
+        }
+      ],
+      "n_features": 17
+    },
+    {
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "target_description": "Next-day RTH return",
+      "walk_forward": {
+        "rmse": 0.008117091462073098,
+        "mae": 0.005342708165848425,
+        "oos_r2": -0.00972192417749529,
+        "n_samples": 847,
+        "accuracy": 0.5277449822904369,
+        "balanced_accuracy": 0.49350616535273906,
+        "naive_rmse": 0.008077989190788299
+      },
+      "holdout": {
+        "rmse": 0.006617609711401256,
+        "mae": 0.005076208413790999,
+        "oos_r2": 0.0053621350510191235,
+        "n_samples": 126,
+        "accuracy": 0.5317460317460317,
+        "balanced_accuracy": 0.5083333333333333,
+        "naive_rmse": 0.006635874068085549
+      },
+      "top_features": [
+        {
+          "feature": "pre_ret_lag_1",
+          "importance": 0.1280693865340689
+        },
+        {
+          "feature": "rth_return",
+          "importance": 0.09093501141167576
+        },
+        {
+          "feature": "rth_ret_lag_1",
+          "importance": 0.08981673928521434
+        },
+        {
+          "feature": "rth_ret_lag_2",
+          "importance": 0.08028327518646021
+        },
+        {
+          "feature": "gap_pct",
+          "importance": 0.06671687525911082
+        },
+        {
+          "feature": "rth_ret_roll_std_5",
+          "importance": 0.06406387503935683
+        },
+        {
+          "feature": "realized_vol_roll_mean_20",
+          "importance": 0.059776245136253583
+        },
+        {
+          "feature": "rth_ret_roll_mean_20",
+          "importance": 0.05345104655586414
+        },
+        {
+          "feature": "premarket_return",
+          "importance": 0.0530508527798312
+        },
+        {
+          "feature": "realized_vol_roll_mean_5",
+          "importance": 0.047963740454512356
+        }
+      ],
+      "n_features": 21
+    },
+    {
+      "symbol": "SPY",
+      "target": "next_day_vol",
+      "target_description": "Next-day realized volatility",
+      "walk_forward": {
+        "rmse": 0.0012132797704173621,
+        "mae": 0.0008478521106881491,
+        "oos_r2": 0.3134329068520558,
+        "n_samples": 848,
+        "qlike": -11.165290558183822,
+        "naive_rmse": 0.0015939300466737204
+      },
+      "holdout": {
+        "rmse": 0.0010426557412216602,
+        "mae": 0.0007749823488272776,
+        "oos_r2": 0.23372120228942173,
+        "n_samples": 126,
+        "qlike": -11.107276047314183,
+        "naive_rmse": 0.0012360961279713725
+      },
+      "top_features": [
+        {
+          "feature": "realized_vol_roll_mean_5",
+          "importance": 0.24191312103167825
+        },
+        {
+          "feature": "rth_ret_roll_std_20",
+          "importance": 0.1261576913436007
+        },
+        {
+          "feature": "realized_vol",
+          "importance": 0.07831995732943464
+        },
+        {
+          "feature": "realized_vol_lag_1",
+          "importance": 0.07262960062449023
+        },
+        {
+          "feature": "rth_ret_roll_std_5",
+          "importance": 0.06894143818883422
+        },
+        {
+          "feature": "rth_return",
+          "importance": 0.05551362926175135
+        },
+        {
+          "feature": "dow_3",
+          "importance": 0.05237134978441255
+        },
+        {
+          "feature": "realized_vol_roll_mean_20",
+          "importance": 0.04971900260689096
+        },
+        {
+          "feature": "rth_ret_lag_1",
+          "importance": 0.04807534913376251
+        },
+        {
+          "feature": "pre_ret_lag_1",
+          "importance": 0.04700052458214464
+        }
+      ],
+      "n_features": 15
+    },
+    {
+      "symbol": "QQQ",
+      "target": "same_day_rth",
+      "target_description": "Same-day RTH return from premarket signals",
+      "walk_forward": {
+        "rmse": 0.010499462794408018,
+        "mae": 0.007295494897450551,
+        "oos_r2": -0.016652108350481143,
+        "n_samples": 848,
+        "accuracy": 0.525383707201889,
+        "balanced_accuracy": 0.49213343852135694,
+        "naive_rmse": 0.010413474020347393
+      },
+      "holdout": {
+        "rmse": 0.009536516387835588,
+        "mae": 0.007401261041016973,
+        "oos_r2": 0.004310370732638846,
+        "n_samples": 126,
+        "accuracy": 0.5158730158730159,
+        "balanced_accuracy": 0.48507462686567165,
+        "naive_rmse": 0.00956291519232708
+      },
+      "top_features": [
+        {
+          "feature": "spy_premarket_return_lag_1",
+          "importance": 0.10586584114139864
+        },
+        {
+          "feature": "spy_rth_return_lag_1",
+          "importance": 0.08969936947922529
+        },
+        {
+          "feature": "realized_vol_lag_1",
+          "importance": 0.08642655409733702
+        },
+        {
+          "feature": "rth_ret_lag_2",
+          "importance": 0.08121455106768549
+        },
+        {
+          "feature": "rth_ret_roll_std_5",
+          "importance": 0.06465160370058154
+        },
+        {
+          "feature": "spy_premarket_return",
+          "importance": 0.06435838922488023
+        },
+        {
+          "feature": "rth_ret_lag_5",
+          "importance": 0.06317367761031441
+        },
+        {
+          "feature": "rth_ret_roll_mean_5",
+          "importance": 0.06256558107478279
+        },
+        {
+          "feature": "gap_pct",
+          "importance": 0.056434189357002326
+        },
+        {
+          "feature": "rth_ret_lag_1",
+          "importance": 0.05497272847139317
+        }
+      ],
+      "n_features": 22
+    },
+    {
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "target_description": "Next-day RTH return",
+      "walk_forward": {
+        "rmse": 0.010454190682596978,
+        "mae": 0.007313582676569246,
+        "oos_r2": -0.007112012581934168,
+        "n_samples": 847,
+        "accuracy": 0.5224586288416075,
+        "balanced_accuracy": 0.4876520540360353,
+        "naive_rmse": 0.01041773403894106
+      },
+      "holdout": {
+        "rmse": 0.009564166707218779,
+        "mae": 0.007440676629489585,
+        "oos_r2": -0.0014718346828932471,
+        "n_samples": 126,
+        "accuracy": 0.5079365079365079,
+        "balanced_accuracy": 0.47761194029850745,
+        "naive_rmse": 0.009562589960348688
+      },
+      "top_features": [
+        {
+          "feature": "last30_pre_return",
+          "importance": 0.15754391825671152
+        },
+        {
+          "feature": "spy_rth_return",
+          "importance": 0.08701330541361192
+        },
+        {
+          "feature": "premarket_return",
+          "importance": 0.08393220985250444
+        },
+        {
+          "feature": "rth_ret_lag_1",
+          "importance": 0.05773964397007634
+        },
+        {
+          "feature": "rth_ret_lag_2",
+          "importance": 0.057364322754166884
+        },
+        {
+          "feature": "spy_rth_return_lag_1",
+          "importance": 0.05273878914506539
+        },
+        {
+          "feature": "realized_vol_roll_mean_5",
+          "importance": 0.05271798261204121
+        },
+        {
+          "feature": "spy_premarket_return",
+          "importance": 0.04505552394280893
+        },
+        {
+          "feature": "rth_ret_roll_std_5",
+          "importance": 0.04316083853196653
+        },
+        {
+          "feature": "rth_ret_roll_mean_5",
+          "importance": 0.04295144204675041
+        }
+      ],
+      "n_features": 24
+    },
+    {
+      "symbol": "QQQ",
+      "target": "next_day_vol",
+      "target_description": "Next-day realized volatility",
+      "walk_forward": {
+        "rmse": 0.0015593107801836522,
+        "mae": 0.0011618416541160715,
+        "oos_r2": 0.15653274718082355,
+        "n_samples": 848,
+        "qlike": -10.510585349114208,
+        "naive_rmse": 0.0018759346710755466
+      },
+      "holdout": {
+        "rmse": 0.0013792568357815518,
+        "mae": 0.0010454014620868033,
+        "oos_r2": 0.14088103337727942,
+        "n_samples": 126,
+        "qlike": -10.37411675952171,
+        "naive_rmse": 0.00151702003486875
+      },
+      "top_features": [
+        {
+          "feature": "realized_vol_roll_mean_5",
+          "importance": 0.19005813972550148
+        },
+        {
+          "feature": "rth_ret_roll_std_20",
+          "importance": 0.1376209236820292
+        },
+        {
+          "feature": "rth_ret_roll_std_5",
+          "importance": 0.06120560484828416
+        },
+        {
+          "feature": "realized_vol_lag_1",
+          "importance": 0.060843275940936546
+        },
+        {
+          "feature": "realized_vol_roll_mean_20",
+          "importance": 0.05897762746729466
+        },
+        {
+          "feature": "realized_vol",
+          "importance": 0.05771204352563953
+        },
+        {
+          "feature": "spy_realized_vol",
+          "importance": 0.05286648702917632
+        },
+        {
+          "feature": "dow_3",
+          "importance": 0.05201606714797224
+        },
+        {
+          "feature": "rth_return",
+          "importance": 0.05152334013710851
+        },
+        {
+          "feature": "rth_ret_lag_1",
+          "importance": 0.04902441753363757
+        }
+      ],
+      "n_features": 17
+    }
+  ],
+  "model": "gbm",
+  "generated_at": "2026-06-25T03:25:00.701501+00:00"
+}

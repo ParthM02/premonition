@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-06-25T03:25:00.703676+00:00",
+  "comparison_table": [
+    {
+      "model": "arima",
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "series": "",
+      "rmse": 0.009261368791221627,
+      "oos_r2": -0.3051833745559338,
+      "qlike": null,
+      "accuracy": 0.520138089758343
+    },
+    {
+      "model": "arima",
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "series": "",
+      "rmse": 0.010522924071651356,
+      "oos_r2": -0.006778919913229764,
+      "qlike": null,
+      "accuracy": 0.5023041474654378
+    },
+    {
+      "model": "garch_garch",
+      "symbol": "SPY",
+      "target": "next_day_vol",
+      "rmse": 0.007926497035082327,
+      "oos_r2": -28.73900990665054,
+      "qlike": -9.73521374155831,
+      "accuracy": null
+    },
+    {
+      "model": "garch_rolling_20d",
+      "symbol": "SPY",
+      "target": "next_day_vol",
+      "rmse": 0.005994252933551522,
+      "oos_r2": -16.007247486246058,
+      "qlike": -10.005390432556755,
+      "accuracy": null
+    },
+    {
+      "model": "garch_garch",
+      "symbol": "QQQ",
+      "target": "next_day_vol",
+      "rmse": 0.009310533564342097,
+      "oos_r2": -29.02364861142264,
+      "qlike": -9.142408486377196,
+      "accuracy": null
+    },
+    {
+      "model": "garch_rolling_20d",
+      "symbol": "QQQ",
+      "target": "next_day_vol",
+      "rmse": 0.007493584249084533,
+      "oos_r2": -18.44883165483645,
+      "qlike": -9.369360231731042,
+      "accuracy": null
+    },
+    {
+      "model": "gbm",
+      "symbol": "SPY",
+      "target": "same_day_rth",
+      "series": "",
+      "rmse": 0.008148142265684322,
+      "oos_r2": -0.018362093836782556,
+      "qlike": null,
+      "accuracy": 0.5377358490566038
+    },
+    {
+      "model": "gbm",
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "series": "",
+      "rmse": 0.008117091462073098,
+      "oos_r2": -0.00972192417749529,
+      "qlike": null,
+      "accuracy": 0.5277449822904369
+    },
+    {
+      "model": "gbm",
+      "symbol": "SPY",
+      "target": "next_day_vol",
+      "series": "",
+      "rmse": 0.0012132797704173621,
+      "oos_r2": 0.3134329068520558,
+      "qlike": -11.165290558183822,
+      "accuracy": null
+    },
+    {
+      "model": "gbm",
+      "symbol": "QQQ",
+      "target": "same_day_rth",
+      "series": "",
+      "rmse": 0.010499462794408018,
+      "oos_r2": -0.016652108350481143,
+      "qlike": null,
+      "accuracy": 0.525383707201889
+    },
+    {
+      "model": "gbm",
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "series": "",
+      "rmse": 0.010454190682596978,
+      "oos_r2": -0.007112012581934168,
+      "qlike": null,
+      "accuracy": 0.5224586288416075
+    },
+    {
+      "model": "gbm",
+      "symbol": "QQQ",
+      "target": "next_day_vol",
+      "series": "",
+      "rmse": 0.0015593107801836522,
+      "oos_r2": 0.15653274718082355,
+      "qlike": -10.510585349114208,
+      "accuracy": null
+    },
+    {
+      "model": "mean_reversion",
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "series": "rth_return",
+      "rmse": 0.008088904460385864,
+      "oos_r2": 0.004364007019455718,
+      "qlike": null,
+      "accuracy": 0.5466052934407365
+    },
+    {
+      "model": "mean_reversion",
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "series": "premarket_return",
+      "rmse": 0.006022145467770112,
+      "oos_r2": -0.014033438913302554,
+      "qlike": null,
+      "accuracy": 0.5063437139561707
+    },
+    {
+      "model": "mean_reversion",
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "series": "rth_return",
+      "rmse": 0.010505243922141087,
+      "oos_r2": -0.0033986715486820085,
+      "qlike": null,
+      "accuracy": 0.5288018433179723
+    },
+    {
+      "model": "mean_reversion",
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "series": "premarket_return",
+      "rmse": 0.008042521201249079,
+      "oos_r2": -0.02725764428326727,
+      "qlike": null,
+      "accuracy": 0.5098039215686274
+    },
+    {
+      "model": "mean_reversion",
+      "symbol": "SPY_QQQ",
+      "target": "next_day_return",
+      "series": "spy_minus_qqq_rth_spread",
+      "rmse": 0.0038840228928107463,
+      "oos_r2": -0.006476889081428405,
+      "qlike": null,
+      "accuracy": 0.5063291139240507
+    },
+    {
+      "model": "mlr",
+      "symbol": "SPY",
+      "target": "same_day_rth",
+      "series": "",
+      "rmse": 0.008144271630954384,
+      "oos_r2": -0.017394812869080845,
+      "qlike": null,
+      "accuracy": 0.4988207547169811
+    },
+    {
+      "model": "mlr",
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "series": "",
+      "rmse": 0.0082252726279633,
+      "oos_r2": -0.03681556983500944,
+      "qlike": null,
+      "accuracy": 0.5029515938606848
+    },
+    {
+      "model": "mlr",
+      "symbol": "SPY",
+      "target": "next_day_vol",
+      "series": "",
+      "rmse": 0.0011896049829246092,
+      "oos_r2": 0.33996552472613817,
+      "qlike": -11.17987103977661,
+      "accuracy": null
+    },
+    {
+      "model": "mlr",
+      "symbol": "QQQ",
+      "target": "same_day_rth",
+      "series": "",
+      "rmse": 0.010611325727609694,
+      "oos_r2": -0.03843065356375108,
+      "qlike": null,
+      "accuracy": 0.5017709563164109
+    },
+    {
+      "model": "mlr",
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "series": "",
+      "rmse": 0.010567227533981791,
+      "oos_r2": -0.02900872960512535,
+      "qlike": null,
+      "accuracy": 0.491725768321513
+    },
+    {
+      "model": "mlr",
+      "symbol": "QQQ",
+      "target": "next_day_vol",
+      "series": "",
+      "rmse": 0.0014178291959412,
+      "oos_r2": 0.30265017947435946,
+      "qlike": -10.555720852387564,
+      "accuracy": null
+    }
+  ],
+  "models": [
+    "arima",
+    "garch",
+    "gbm",
+    "mean_reversion",
+    "mlr"
+  ]
+}

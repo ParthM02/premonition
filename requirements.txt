@@ -1,0 +1,13 @@
+webull-openapi-python-sdk>=2.0.9
+webull-python-sdk-core
+python-dotenv
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+jupyter
+statsmodels
+scikit-learn
+xgboost
+arch

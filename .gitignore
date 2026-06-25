@@ -1,0 +1,15 @@
+.env
+data/*.csv
+data/*.parquet
+data/*.json
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.DS_Store
+webull_data_sdk.log
+*.log
+conf/

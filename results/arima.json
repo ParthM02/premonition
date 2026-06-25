@@ -1,0 +1,62 @@
+{
+  "runs": [
+    {
+      "symbol": "SPY",
+      "target": "next_day_return",
+      "arima_order": [
+        1,
+        0,
+        1
+      ],
+      "walk_forward": {
+        "rmse": 0.009261368791221627,
+        "mae": 0.006220527368336097,
+        "oos_r2": -0.3051833745559338,
+        "n_samples": 869,
+        "accuracy": 0.520138089758343,
+        "balanced_accuracy": 0.4930379746835443,
+        "naive_rmse": 0.008107757401971474
+      },
+      "holdout": {
+        "rmse": 0.006804101286384404,
+        "mae": 0.0053375896292904715,
+        "oos_r2": -0.05148777582073638,
+        "n_samples": 126,
+        "accuracy": 0.49206349206349204,
+        "balanced_accuracy": 0.4871212121212122,
+        "naive_rmse": 0.006636542366965059
+      },
+      "refit_every": 63
+    },
+    {
+      "symbol": "QQQ",
+      "target": "next_day_return",
+      "arima_order": [
+        1,
+        0,
+        1
+      ],
+      "walk_forward": {
+        "rmse": 0.010522924071651356,
+        "mae": 0.007388313930921281,
+        "oos_r2": -0.006778919913229764,
+        "n_samples": 869,
+        "accuracy": 0.5023041474654378,
+        "balanced_accuracy": 0.4766421983813288,
+        "naive_rmse": 0.010490201485794291
+      },
+      "holdout": {
+        "rmse": 0.00960891332304358,
+        "mae": 0.007491315914246467,
+        "oos_r2": -0.010864666479899698,
+        "n_samples": 126,
+        "accuracy": 0.4523809523809524,
+        "balanced_accuracy": 0.44561092840880345,
+        "naive_rmse": 0.009565906909939055
+      },
+      "refit_every": 63
+    }
+  ],
+  "model": "arima",
+  "generated_at": "2026-06-25T03:23:55.018228+00:00"
+}
