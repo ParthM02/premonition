@@ -1,0 +1,686 @@
+{
+  "generated_at": "2026-06-28T06:09:21.184331+00:00",
+  "cost_bps": 10,
+  "single_asset": [
+    {
+      "strategy": "tsmom_5d",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 212,
+      "ann_return": -0.0438351790351712,
+      "ann_vol": 0.0886057865703565,
+      "sharpe": -0.49472140287772665,
+      "max_drawdown": -0.2542541162978892,
+      "hit_rate": 0.4878419452887538,
+      "avg_trade_return": 0.0009415647472345293,
+      "total_return": -0.18077784731446245,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.44843503776834515,
+      "holdout_return": 0.007574819009815714,
+      "holdout_sharpe": 0.10495164721407121,
+      "holdout_excess": -0.03813090440450839
+    },
+    {
+      "strategy": "tsmom_20d",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 80,
+      "ann_return": 0.03195745063820765,
+      "ann_vol": 0.08390463476075631,
+      "sharpe": 0.3808782521886946,
+      "max_drawdown": -0.11695442845519033,
+      "hit_rate": 0.5275035260930888,
+      "avg_trade_return": 0.000693058429059602,
+      "total_return": 0.15019979111003523,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.11745739934384747,
+      "holdout_return": 0.009070818629564936,
+      "holdout_sharpe": 0.1315138943710728,
+      "holdout_excess": -0.03663490478475917
+    },
+    {
+      "strategy": "tsmom_60d",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 39,
+      "ann_return": 0.008364924768702098,
+      "ann_vol": 0.08889602384279344,
+      "sharpe": 0.09409785057985155,
+      "max_drawdown": -0.1150245171816967,
+      "hit_rate": 0.5380645161290323,
+      "avg_trade_return": 0.0002896468905822663,
+      "total_return": 0.03775099625208478,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.22990619420179792,
+      "holdout_return": 0.033699513239871415,
+      "holdout_sharpe": 0.40543133603115616,
+      "holdout_excess": -0.012006210174452692
+    },
+    {
+      "strategy": "tsmom_20d_hold5d",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 42,
+      "ann_return": 0.025428927238868138,
+      "ann_vol": 0.08489980984605716,
+      "sharpe": 0.29951689273482024,
+      "max_drawdown": -0.12775362166801896,
+      "hit_rate": 0.524822695035461,
+      "avg_trade_return": 0.0003815144141595824,
+      "total_return": 0.11818188541600194,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.14947530503788076,
+      "holdout_return": 0.011510927290476092,
+      "holdout_sharpe": 0.16953682342596907,
+      "holdout_excess": -0.034194796123848015
+    },
+    {
+      "strategy": "mom_12_1",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 9,
+      "ann_return": 0.04283445146355813,
+      "ann_vol": 0.10655605039692602,
+      "sharpe": 0.4019898570188919,
+      "max_drawdown": -0.13477639901667993,
+      "hit_rate": 0.541343669250646,
+      "avg_trade_return": 0.00024056828024517942,
+      "total_return": 0.2051177531945514,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.06253943725933131,
+      "holdout_return": 0.045705723414324106,
+      "holdout_sharpe": 0.4321866970035657,
+      "holdout_excess": 0.0
+    },
+    {
+      "strategy": "52w_high",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 27,
+      "ann_return": 0.001765724369277466,
+      "ann_vol": 0.07634283288051211,
+      "sharpe": 0.023128881948107523,
+      "max_drawdown": -0.1310018670167612,
+      "hit_rate": 0.532561505065123,
+      "avg_trade_return": 0.00018895253261755663,
+      "total_return": 0.007878618523323055,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.25977857193055964,
+      "holdout_return": 0.05583694943257789,
+      "holdout_sharpe": 0.5953648135053351,
+      "holdout_excess": 0.01013122601825378
+    },
+    {
+      "strategy": "dual_momentum",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 9,
+      "ann_return": 0.04283445146355813,
+      "ann_vol": 0.10655605039692602,
+      "sharpe": 0.4019898570188919,
+      "max_drawdown": -0.13477639901667993,
+      "hit_rate": 0.541343669250646,
+      "avg_trade_return": 0.00024056828024517942,
+      "total_return": 0.2051177531945514,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.06253943725933131,
+      "holdout_return": 0.045705723414324106,
+      "holdout_sharpe": 0.4321866970035657,
+      "holdout_excess": 0.0
+    },
+    {
+      "strategy": "premarket_continuation",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 546,
+      "ann_return": -0.12737924745931406,
+      "ann_vol": 0.0967915333882278,
+      "sharpe": -1.3160164221017132,
+      "max_drawdown": -0.46365967141811437,
+      "hit_rate": 0.5024311183144247,
+      "avg_trade_return": -0.0005057455727927233,
+      "total_return": -0.4545341475651351,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.7221913380190178,
+      "holdout_return": -0.06697104452709834,
+      "holdout_sharpe": -0.9009237312927532,
+      "holdout_excess": -0.11267676794142245
+    },
+    {
+      "strategy": "first30_continuation",
+      "symbol": "SPY",
+      "horizon": "daily",
+      "n_trades": 578,
+      "ann_return": -0.09599714863778841,
+      "ann_vol": 0.10371786013786877,
+      "sharpe": -0.925560443593635,
+      "max_drawdown": -0.3620982861689286,
+      "hit_rate": 0.5320945945945946,
+      "avg_trade_return": -0.00022931121765448374,
+      "total_return": -0.3614438198681482,
+      "buy_hold_return": 0.2616128085729619,
+      "excess_vs_bh": -0.6230566284411101,
+      "holdout_return": -0.04410053902109656,
+      "holdout_sharpe": -0.6361228668254606,
+      "holdout_excess": -0.08980626243542067
+    },
+    {
+      "strategy": "tsmom_5d",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 214,
+      "ann_return": 0.011955326601449823,
+      "ann_vol": 0.1226177471492686,
+      "sharpe": 0.09750078499563376,
+      "max_drawdown": -0.21088248235580065,
+      "hit_rate": 0.5046153846153846,
+      "avg_trade_return": 0.0017052152699940403,
+      "total_return": 0.05428923870292435,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.2373883018434313,
+      "holdout_return": 0.014673864459425756,
+      "holdout_sharpe": 0.14016659974570855,
+      "holdout_excess": -0.06889235272559402
+    },
+    {
+      "strategy": "tsmom_20d",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 80,
+      "ann_return": 0.056042576105464814,
+      "ann_vol": 0.11670617996817294,
+      "sharpe": 0.4802023005186893,
+      "max_drawdown": -0.14142356707719983,
+      "hit_rate": 0.5430183356840621,
+      "avg_trade_return": 0.0009417920034942411,
+      "total_return": 0.27451445194056756,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.01716308860578808,
+      "holdout_return": 0.02491419689922636,
+      "holdout_sharpe": 0.23087547874471678,
+      "holdout_excess": -0.058652020285793416
+    },
+    {
+      "strategy": "tsmom_60d",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 45,
+      "ann_return": 0.009544039341661703,
+      "ann_vol": 0.11640023544352408,
+      "sharpe": 0.08199329928582791,
+      "max_drawdown": -0.30144205139590596,
+      "hit_rate": 0.5413223140495868,
+      "avg_trade_return": 0.0003582594673613425,
+      "total_return": 0.04315993510847682,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.24851760543787882,
+      "holdout_return": -0.035188748959481875,
+      "holdout_sharpe": -0.2952418368547029,
+      "holdout_excess": -0.11875496614450165
+    },
+    {
+      "strategy": "tsmom_20d_hold5d",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 38,
+      "ann_return": 0.04270155955600852,
+      "ann_vol": 0.11732870272318914,
+      "sharpe": 0.3639481095836652,
+      "max_drawdown": -0.169072855833443,
+      "hit_rate": 0.5450704225352113,
+      "avg_trade_return": 0.0005458093262269356,
+      "total_return": 0.2044347506889339,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.08724278985742173,
+      "holdout_return": -0.00520386092121472,
+      "holdout_sharpe": -0.04798518453110686,
+      "holdout_excess": -0.0887700781062345
+    },
+    {
+      "strategy": "mom_12_1",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 7,
+      "ann_return": 0.04021808616970968,
+      "ann_vol": 0.1382756513766687,
+      "sharpe": 0.29085443293377744,
+      "max_drawdown": -0.20516407875198273,
+      "hit_rate": 0.5435897435897435,
+      "avg_trade_return": 0.0002553389907209061,
+      "total_return": 0.19172596246740192,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.09995157807895372,
+      "holdout_return": 0.08356621718501978,
+      "holdout_sharpe": 0.5486210149720607,
+      "holdout_excess": 0.0
+    },
+    {
+      "strategy": "52w_high",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 57,
+      "ann_return": -0.017050612945149646,
+      "ann_vol": 0.0964973897680777,
+      "sharpe": -0.17669506901823118,
+      "max_drawdown": -0.24360392523103702,
+      "hit_rate": 0.5369774919614148,
+      "avg_trade_return": 0.00044551084960885824,
+      "total_return": -0.07364915847116149,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.36532669901751713,
+      "holdout_return": -0.0036285400950614166,
+      "holdout_sharpe": -0.02981852906324384,
+      "holdout_excess": -0.08719475728008119
+    },
+    {
+      "strategy": "dual_momentum",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 7,
+      "ann_return": 0.04021808616970968,
+      "ann_vol": 0.1382756513766687,
+      "sharpe": 0.29085443293377744,
+      "max_drawdown": -0.20516407875198273,
+      "hit_rate": 0.5435897435897435,
+      "avg_trade_return": 0.0002553389907209061,
+      "total_return": 0.19172596246740192,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.09995157807895372,
+      "holdout_return": 0.08356621718501978,
+      "holdout_sharpe": 0.5486210149720607,
+      "holdout_excess": 0.0
+    },
+    {
+      "strategy": "premarket_continuation",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 554,
+      "ann_return": -0.10752684901048204,
+      "ann_vol": 0.13463440748223265,
+      "sharpe": -0.798658017822614,
+      "max_drawdown": -0.4390636635859674,
+      "hit_rate": 0.5221674876847291,
+      "avg_trade_return": -0.0003094501103599179,
+      "total_return": -0.39712554653396115,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.6888030870803168,
+      "holdout_return": -0.0011399439667809652,
+      "holdout_sharpe": -0.010240708396260952,
+      "holdout_excess": -0.08470616115180074
+    },
+    {
+      "strategy": "first30_continuation",
+      "symbol": "QQQ",
+      "horizon": "daily",
+      "n_trades": 566,
+      "ann_return": -0.05745332101765621,
+      "ann_vol": 0.1344888949953176,
+      "sharpe": -0.42719750965056646,
+      "max_drawdown": -0.2702402898719174,
+      "hit_rate": 0.5431893687707641,
+      "avg_trade_return": 9.973669183936177e-05,
+      "total_return": -0.2312404525640228,
+      "buy_hold_return": 0.2889335279537948,
+      "excess_vs_bh": -0.5201739805178176,
+      "holdout_return": 0.0026439284926602635,
+      "holdout_sharpe": 0.029420030228756347,
+      "holdout_excess": -0.08092228869235951
+    }
+  ],
+  "cross_sectional": {
+    "lookback": 20,
+    "n_trades": 118,
+    "ann_return": 0.015567305328550995,
+    "ann_vol": 0.1669992332387306,
+    "sharpe": 0.09321782517586204,
+    "max_drawdown": -0.2899778008403535,
+    "hit_rate": 0.5318181818181819,
+    "avg_trade_return": 0.00011850120217202773,
+    "total_return": 0.07113229848646774,
+    "buy_hold_return": 0.2831680707222468,
+    "excess_vs_bh": -0.21203577223577907,
+    "holdout_return": 0.004246248244094364,
+    "holdout_sharpe": 0.030893679822407576,
+    "holdout_excess": -0.060509503492842454
+  },
+  "walk_forward": [
+    {
+      "symbol": "SPY",
+      "strategy": "wf_tsmom",
+      "oos_sharpe": -0.03442069485893868,
+      "oos_ann_return": -0.0026583307738627937,
+      "oos_max_dd": -0.1636063009458183,
+      "oos_total_return": -0.009137227219903288,
+      "oos_excess_vs_bh": -0.3620172472557741,
+      "holdout_sharpe": -0.18184781731213057,
+      "holdout_return": -0.012489391760037716,
+      "holdout_excess": -0.05819511517436182,
+      "n_oos_days": 869,
+      "param_history": [
+        {
+          "oos_start": "2025-09-11 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.6236487470099953
+        },
+        {
+          "oos_start": "2025-10-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.6483457225438023
+        },
+        {
+          "oos_start": "2025-11-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.4684513485058179
+        },
+        {
+          "oos_start": "2025-12-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.43469748407338343
+        },
+        {
+          "oos_start": "2026-01-12 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.40491926490314195
+        },
+        {
+          "oos_start": "2026-02-11 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.38784111579782493
+        },
+        {
+          "oos_start": "2026-03-13 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.351020651884393
+        },
+        {
+          "oos_start": "2026-04-14 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.37059839712093395
+        },
+        {
+          "oos_start": "2026-05-13 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.47826537343011516
+        },
+        {
+          "oos_start": "2026-06-12 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.45912553757194513
+        }
+      ],
+      "best_static_lookback": 20,
+      "static_sharpe": 0.3808782521886946
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "wf_tsmom_vol_scaled",
+      "oos_sharpe": -0.5309552760352945,
+      "oos_ann_return": -0.04963507571862258,
+      "oos_max_dd": -0.32104465841499774,
+      "oos_total_return": -0.16100963832717885,
+      "oos_excess_vs_bh": -0.5138896583630497,
+      "holdout_sharpe": -0.355621839536485,
+      "holdout_return": -0.025362212900282954,
+      "holdout_excess": -0.07106793631460706,
+      "n_oos_days": 869,
+      "param_history": [
+        {
+          "oos_start": "2025-09-11 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.6236487470099953
+        },
+        {
+          "oos_start": "2025-10-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.6483457225438023
+        },
+        {
+          "oos_start": "2025-11-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.4684513485058179
+        },
+        {
+          "oos_start": "2025-12-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.43469748407338343
+        },
+        {
+          "oos_start": "2026-01-12 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.40491926490314195
+        },
+        {
+          "oos_start": "2026-02-11 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.38784111579782493
+        },
+        {
+          "oos_start": "2026-03-13 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.351020651884393
+        },
+        {
+          "oos_start": "2026-04-14 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.37059839712093395
+        },
+        {
+          "oos_start": "2026-05-13 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.47826537343011516
+        },
+        {
+          "oos_start": "2026-06-12 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.45912553757194513
+        }
+      ],
+      "best_static_lookback": 20,
+      "static_sharpe": 0.3808782521886946
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "wf_tsmom",
+      "oos_sharpe": 0.22793504567823172,
+      "oos_ann_return": 0.027130717923621317,
+      "oos_max_dd": -0.2592706072486567,
+      "oos_total_return": 0.09670613366077019,
+      "oos_excess_vs_bh": -0.445776104628804,
+      "holdout_sharpe": -0.007108813072865248,
+      "holdout_return": -0.0008241158444634022,
+      "holdout_excess": -0.08439033302948318,
+      "n_oos_days": 869,
+      "param_history": [
+        {
+          "oos_start": "2025-09-11 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.6843338617899551
+        },
+        {
+          "oos_start": "2025-10-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.7085908034148232
+        },
+        {
+          "oos_start": "2025-11-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.5786289716010652
+        },
+        {
+          "oos_start": "2025-12-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.5461402241524921
+        },
+        {
+          "oos_start": "2026-01-12 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.46789080636924385
+        },
+        {
+          "oos_start": "2026-02-11 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.42364656276024987
+        },
+        {
+          "oos_start": "2026-03-13 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.41246253624795
+        },
+        {
+          "oos_start": "2026-04-14 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.4268788148639917
+        },
+        {
+          "oos_start": "2026-05-13 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.6022443990536663
+        },
+        {
+          "oos_start": "2026-06-12 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.5398473271575807
+        }
+      ],
+      "best_static_lookback": 15,
+      "static_sharpe": 0.5095451299544789
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "wf_tsmom_vol_scaled",
+      "oos_sharpe": -0.3591031544068563,
+      "oos_ann_return": -0.04855471102634956,
+      "oos_max_dd": -0.45936988139684076,
+      "oos_total_return": -0.1577161168937794,
+      "oos_excess_vs_bh": -0.7001983551833536,
+      "holdout_sharpe": -0.3158253472960123,
+      "holdout_return": -0.03788885652455287,
+      "holdout_excess": -0.12145507370957265,
+      "n_oos_days": 869,
+      "param_history": [
+        {
+          "oos_start": "2025-09-11 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.6843338617899551
+        },
+        {
+          "oos_start": "2025-10-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.7085908034148232
+        },
+        {
+          "oos_start": "2025-11-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.5786289716010652
+        },
+        {
+          "oos_start": "2025-12-10 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.5461402241524921
+        },
+        {
+          "oos_start": "2026-01-12 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.46789080636924385
+        },
+        {
+          "oos_start": "2026-02-11 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.42364656276024987
+        },
+        {
+          "oos_start": "2026-03-13 00:00:00",
+          "lookback": 20,
+          "train_sharpe": 0.41246253624795
+        },
+        {
+          "oos_start": "2026-04-14 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.4268788148639917
+        },
+        {
+          "oos_start": "2026-05-13 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.6022443990536663
+        },
+        {
+          "oos_start": "2026-06-12 00:00:00",
+          "lookback": 15,
+          "train_sharpe": 0.5398473271575807
+        }
+      ],
+      "best_static_lookback": 15,
+      "static_sharpe": 0.5095451299544789
+    }
+  ],
+  "vol_momentum_comparison": [
+    {
+      "strategy": "tsmom_20d",
+      "symbol": "SPY",
+      "n_trades": 80,
+      "ann_return": 0.03195745063820765,
+      "ann_vol": 0.08390463476075631,
+      "sharpe": 0.3808782521886946,
+      "max_drawdown": -0.11695442845519033,
+      "hit_rate": 0.5275035260930888,
+      "avg_trade_return": 0.000693058429059602,
+      "total_return": 0.15019979111003523,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.11745739934384747,
+      "holdout_return": 0.009070818629564936,
+      "holdout_sharpe": 0.1315138943710728,
+      "holdout_excess": -0.03663490478475917
+    },
+    {
+      "strategy": "tsmom_20d_vol_scaled",
+      "symbol": "SPY",
+      "n_trades": 545,
+      "ann_return": -0.0021924100150639836,
+      "ann_vol": 0.1085357905185953,
+      "sharpe": -0.020199880653086144,
+      "max_drawdown": -0.21526627379936847,
+      "hit_rate": 0.5246826516220028,
+      "avg_trade_return": 8.7954569794408e-05,
+      "total_return": -0.009715943459487786,
+      "buy_hold_return": 0.2676571904538827,
+      "excess_vs_bh": -0.2773731339133705,
+      "holdout_return": 0.00014574848079562663,
+      "holdout_sharpe": 0.0015687854946399376,
+      "holdout_excess": -0.04555997493352848
+    },
+    {
+      "strategy": "tsmom_20d",
+      "symbol": "QQQ",
+      "n_trades": 80,
+      "ann_return": 0.056042576105464814,
+      "ann_vol": 0.11670617996817294,
+      "sharpe": 0.4802023005186893,
+      "max_drawdown": -0.14142356707719983,
+      "hit_rate": 0.5430183356840621,
+      "avg_trade_return": 0.0009417920034942411,
+      "total_return": 0.27451445194056756,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.01716308860578808,
+      "holdout_return": 0.02491419689922636,
+      "holdout_sharpe": 0.23087547874471678,
+      "holdout_excess": -0.058652020285793416
+    },
+    {
+      "strategy": "tsmom_20d_vol_scaled",
+      "symbol": "QQQ",
+      "n_trades": 570,
+      "ann_return": 0.0023213393133389992,
+      "ann_vol": 0.14480037029947235,
+      "sharpe": 0.016031307851893373,
+      "max_drawdown": -0.2974668136639963,
+      "hit_rate": 0.53737658674189,
+      "avg_trade_return": 0.00014632571922315544,
+      "total_return": 0.010367684232924557,
+      "buy_hold_return": 0.29167754054635564,
+      "excess_vs_bh": -0.2813098563134311,
+      "holdout_return": 0.04344790553874822,
+      "holdout_sharpe": 0.3796145957084955,
+      "holdout_excess": -0.040118311646271554
+    }
+  ]
+}
